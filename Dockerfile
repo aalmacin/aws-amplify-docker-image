@@ -1,3 +1,3 @@
-FROM node:8.12
+FROM circleci/node:8.12
 
-RUN npm i -g @aws-amplify/cli
+RUN sudo npm i -g @aws-amplify/cli
